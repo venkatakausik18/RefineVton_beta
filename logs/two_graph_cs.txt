@@ -1,0 +1,10 @@
+
+Step: 9999  total loss: 1460.42322
+Step: 19999  total loss: 1345.91261
+Step: 29999  total loss: 1307.31670
+Step: 39999  total loss: 1284.85283
+Step: 49999  total loss: 1268.80791
+Step: 59999  total loss: 1252.54926
+Step: 69999  total loss: 1234.31085
+Step: 79999  total loss: 1214.20731
+Step: 89999  total loss: 1201.69791

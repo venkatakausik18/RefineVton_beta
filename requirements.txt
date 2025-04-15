@@ -1,0 +1,19 @@
+accelerate==1.2.1
+optimum-quanto==0.2.6
+peft==0.14.0
+sentencepiece==0.2.0
+transformers==4.44.2
+diffusers @ git+https://github.com/huggingface/diffusers@dc62e6931e3aac1d78375928693186764dcb8492
+datasets
+pandas==2.2.3
+gradio
+pillow==11.1.0
+protobuf
+fastapi
+numpy
+runpod
+huggingface-hub
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+--extra-index-url https://download.pytorch.org/whl/cu124
