@@ -107,9 +107,6 @@ def load_models(device=device, torch_dtype=torch_dtype):
     )
     
     # Freeze model parameters (no backpropagation needed for inference)
-    for param in pipe.parameters():
-        param.requires_grad = False
-    
     # Save the compiled model for future use
     try:
         print(f"Saving compiled model to {serialized_model_path}")
