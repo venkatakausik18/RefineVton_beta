@@ -106,11 +106,9 @@ def load_models(device=device, torch_dtype=torch_dtype):
         adapter_name="tryon",
     )
     
-    # Put models in inference mode
-    pipe.eval()
+    # Freeze model parameters (no backpropagation needed for inference)
     for param in pipe.parameters():
-        if param.requires_grad:
-            param.requires_grad = False
+        param.requires_grad = False
     
     # Save the compiled model for future use
     try:
