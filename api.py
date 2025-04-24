@@ -40,7 +40,7 @@ def load_models(device=device, torch_dtype=torch_dtype):
     torch.cuda.empty_cache()
     
     # Check if we have a serialized model
-    serialized_path = "/workspace/serialized_models"
+    serialized_path = "/workspace"
     os.makedirs(serialized_path, exist_ok=True)
     serialized_model_path = f"{serialized_path}/compiled_pipe.pt"
     
